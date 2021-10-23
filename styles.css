@@ -1,0 +1,113 @@
+#container{
+    display: grid;
+    width: 300px;
+    height: 450px;
+    grid-template-columns: 75px 75px 75px 75px;
+    grid-template-rows: 75px 75px 75px 75px 75px 75px;
+    border-style: solid;
+    border-width: thick;
+    margin: auto;
+    grid-template-areas: 
+        "display display display display"
+        "seven eight nine plus"
+        "four five six minus"
+        "one two three multiplication"
+        "back zer0 point divide"
+        "clear equal equal equal";
+    background-color: gray;
+}
+
+#display{
+    grid-area: display;
+    border: 1px solid black;
+    align-self: center;
+    justify-self: center;
+    height: 50px;
+    width: 275px;
+    background-color: white;
+}
+
+button{
+    align-self: center;
+    justify-self: center;
+    width: 50px;
+    height: 50px;
+}
+
+#zero{
+    grid-area: zer0;
+}
+
+
+#nine{
+    grid-area: nine;
+}
+
+#eight{
+    grid-area: eight;
+}
+
+#seven{
+    grid-area: seven;
+}
+
+#six{
+    grid-area: six;
+}
+
+#five{
+    grid-area: five;
+}
+
+#four{
+    grid-area: four;
+}
+
+#three{
+    grid-area: three;
+}
+
+#two{
+    grid-area: two;
+}
+
+#one{
+    grid-area: one;
+}
+
+#clear{
+    grid-area: clear;
+}
+
+#back{
+    grid-area: back;
+}
+
+#plus{
+    grid-area: plus;
+}
+
+#minus{
+    grid-area: minus;
+}
+
+#multiply{
+    grid-area: multiplication;
+}
+
+#divide{
+    grid-area: divide;
+}
+
+#equals{
+    grid-area: equal;
+    width: 200px;
+}
+
+#back{
+    grid-area: back;
+}
+
+#decimal{
+    grid-area: point;
+}
